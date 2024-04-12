@@ -1,0 +1,43 @@
+#or {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 97%
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+#name,
+#email,
+#message {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"],
+.send {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+.send:hover {
+    background-color: #444;
+}

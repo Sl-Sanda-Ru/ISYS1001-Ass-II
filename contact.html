@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMax Laptop</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/headandfoot.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="TechMax Laptop Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="webdev.html">Laptops</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <h2>Contact Us</h2>
+        <p>Having problems or want to inquire about something? Feel free to reach out to us!</p>
+        <form id="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <!-- I've setted input type to text to validate email from javascript if i use input type email the browser will do the validation -->
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        <h2 id="or">or</h2>
+        <button id="send" class="send">Email Directly</button>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <nav class="bottom-navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="webdev.html">Laptops</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="horizontal-footer">
+                    <a href="#"><img src="images/icons8-facebook-96.png" alt="insta"></a>
+                    <a href="#"><img src="images/icons8-instagram-96.png" alt="insta"></a>
+                    <a href="#"><img src="images/icons8-twitter-96.png" alt="twitter"></a>
+                    <br>
+                    <a href="#"><img src="images/icons8-visa-96.png" alt="visa"></a>
+                    <a href="#"><img src="images/icons8-mastercard-96.png" alt="master"></a>
+                    <a href="#"><img src="images/icons8-paypal-96.png" alt="paypal"></a>
+                    <a href="#"><img src="images/icons8-amex-96.png" alt="amex"></a>
+                    <a href="#"><img src="images/icons8-alipay-a-third-party-mobile-and-online-payment-platform-96.png"
+                            alt="alipay"></a>
+
+                    <p>&copy; 2024 TechMax Laptop. All rights reserved.</p>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+<script  src="js/script.js"></script>
+</html>
