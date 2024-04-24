@@ -1,11 +1,12 @@
 
 // Array of background image URLs
 var backgroundImages = [
-    "url('images/1.png')",
-    "url('images/2.png')",
-    "url('images/3.png')",
     "url('images/4.png')",
-    "url('images/5.png')"
+    "url('images/2.png')",
+    "url('images/1.png')",
+    "url('images/3.png')",
+    "url('images/5.png')",
+    "url('images/6.png')"
 ];
 
 var currentImageIndex = 0;

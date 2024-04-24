@@ -4,8 +4,21 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 500px;
-    transition: background-image 1s ease-in-out; /* Add transition property */
-  }  
+    transition: background-image 1s ease-in-out;
+    /* Add transition property */
+}
+
+h1 {
+    color: white;
+    -webkit-text-stroke: 0.7px black;
+}
+
+strong {
+    color: white;
+    /* -webkit-text-fill-color: white; */
+    font-size: larger;
+    -webkit-text-stroke: 0.7px black;
+}
 
 .hero-content {
     max-width: 800px;
